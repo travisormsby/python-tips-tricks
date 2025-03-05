@@ -1,0 +1,3 @@
+mkdocs.yml: this file contains the configuration for the site. The important part is the `nav` section, which has the name and filename for that page. Change this section if you add a new page, change the title of a page, or change the file that should be used for a page.
+
+docs directory: Put the files for each section in this directory. They can be markdown (.md), notebook (.ipynb) or Python (.py) files. Currently, this directory holds placehoder files for draft pages.

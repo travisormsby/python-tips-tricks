@@ -1,0 +1,56 @@
+site_name: Python Tips and Tricks
+nav:
+  - Introduction: index.md
+  - Use more iterators and fewer lists for loops: iterators.ipynb
+  - Use existing standard library capabilities instead of rolling your own solutions: standard_library.ipynb
+  - Use more unpacking and less bracket notation: unpacking.md
+  - Use more tuples and sets and fewer lists: tuples_sets.md
+  - Use try/except instead of conditionals for validation: try_except.md
+  - Use more comprehensions and fewer loops (but don't go overboard): comprehensions.md
+  - Use more doc strings and type hints for documentation: documentation.md
+  - Use more automated and less ad-hoc methods of testing: test.py
+
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+  font:
+    text: Roboto
+    code: Roboto Mono
+  custom_dir: docs/overrides
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_source: True
+      execute: False # change to True when closer to publication
+      allow_errors: True
+  - print-site:
+      add_cover_page: true
+      cover_page_template: "docs/templates/custom_cover_page.tpl"
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/travisormsby
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/travis-ormsby/
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright:
+  © 2025 <a href="https://github.com/travisormsby" target="_blank" rel="noopener">Travis Ormsby</a> and <a href="https://github.com/gracedoherty" target="_blank" rel="noopener">Grace Doherty</a>
