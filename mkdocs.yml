@@ -32,8 +32,10 @@ plugins:
   - search
   - mkdocs-jupyter:
       include_source: True
-      execute: False # change to True when closer to publication
+      execute: False
       allow_errors: True
+      include_source: True
+      ignore_h1_titles: True
   - print-site:
       add_cover_page: true
       cover_page_template: "docs/templates/custom_cover_page.tpl"
