@@ -1,2 +1,7 @@
 .github/
 .mypy_cache
+
+# Exercise files
+data.csv
+exercise.txt
+docs/*.py
