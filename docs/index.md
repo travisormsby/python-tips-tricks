@@ -15,3 +15,5 @@ This session is designed to highlight some common code patterns that work OK, bu
 * Instead of guessing about inefficiencies, profile your code 
 
 This workshop is focused on general patterns that you can use no matter what type of problem you are working on. Because these are general patterns, don't expect to be able to lift the code examples here and use them directly in your code. Do expect to take these strategies and apply them to your code. 
+
+The code examples and exercises are written using Jupyter Notebooks. If you have a Google account, you can click the Open in Colab button at the top to run the notebooks using Google's Colab environment. Otherwise, you can click the download button for each notebook to download it to your local machine and run in a notebook environment (e.g. loading the notebook into ArcGIS Pro). 
