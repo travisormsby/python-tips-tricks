@@ -1,14 +1,10 @@
 site_name: Python Tips and Tricks
 nav:
-  - Introduction: index.md
-  - Use more iterators and fewer lists for loops: iterators.ipynb
-  - Use existing standard library capabilities instead of rolling your own solutions: standard_library.ipynb
-  - Use more unpacking and less bracket notation: unpacking.md
-  - Use more tuples and sets and fewer lists: tuples_sets.md
-  - Use try/except instead of conditionals for validation: try_except.md
-  - Use more comprehensions and fewer loops (but don't go overboard): comprehensions.md
-  - Use more doc strings and type hints for documentation: documentation.md
-  - Use more automated and less ad-hoc methods of testing: test.py
+  - "Introduction": index.md
+  - "Don't try so hard": tryhard.ipynb
+  - "Help people understand your code": Documentation.ipynb
+  - "Optimize performance and memory use": PerformanceMemory.ipynb
+  - "Exercise Answers": ExerciseAnswers.ipynb
 
 
 theme:
