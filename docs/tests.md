@@ -1,1 +1,0 @@
-# Use more automated and less ad-hoc methods of testing

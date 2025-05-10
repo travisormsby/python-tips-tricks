@@ -1,1 +1,0 @@
-# Use more doc strings and type hints for documentation
