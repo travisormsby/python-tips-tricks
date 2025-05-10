@@ -1,0 +1,12 @@
+[project]
+name = "python-tips-tricks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "mkdocs-jupyter>=0.25.1",
+    "mkdocs-material>=9.6.13",
+    "mkdocs-print-site-plugin>=2.7.3",
+]
