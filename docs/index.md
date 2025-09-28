@@ -10,7 +10,6 @@ This session is designed to highlight some common code patterns that work OK, bu
 * Instead of writing setup and teardown code, use context managers 
 * Instead of only writing documentation in separate files, use doc strings and type hints.
 * Instead of always modeling data collections as lists, use more tuples and sets
-* Instead of always looping over lists, use more iterators
 * Instead of list comprehensions, use more generators
 * Instead of guessing about inefficiencies, profile your code 
 
