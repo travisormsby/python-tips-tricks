@@ -1,8 +1,11 @@
 .mypy_cache
 
+# Jupyter files
+.ipynb_checkpoints/
+
 # Exercise files
 data.csv
 exercise.txt
 docs/*.py
-
 *.txt
+*.db
