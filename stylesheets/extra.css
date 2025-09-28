@@ -1,0 +1,30 @@
+:root {
+    --md-primary-fg-color: #3572A5;
+    --md-primary-bg-color: #FFD43B;
+    --md-accent-fg-color: #3572A5;
+  }
+
+#print-site-cover-page h1 {
+    background-image: url("/images/TitlePage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    height: 900px;
+    color: rgba(0, 0, 0, 0);
+}
+
+.md-grid {
+  max-width: 1060pt; 
+}
+
+@media print {
+  div {
+    break-inside: avoid;
+  }
+
+  h1, h2 {
+    page-break-before: auto;
+    page-break-after: avoid;
+  }
+
+}
